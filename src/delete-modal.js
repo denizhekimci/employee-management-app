@@ -63,6 +63,13 @@ export class DeleteModal extends LitElement {
     this.selectedEmployee = null;
   }
 
+  async connectedCallback() {
+    super.connectedCallback();
+    window.addEventListener('languageChanged', () => {
+      this.requestUpdate();
+    });
+  }
+
   closeModal() {
     this.isOpen = false;
     this.dispatchEvent(new Event('modal-closed'));

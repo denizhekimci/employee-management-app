@@ -104,6 +104,10 @@ export class ListEmployee extends LitElement {
     if (this.employees.length === 0) {
       await this.fetchEmployees();
     }
+
+    window.addEventListener('languageChanged', () => {
+      this.requestUpdate();
+    });
   }
 
   disconnectedCallback() {

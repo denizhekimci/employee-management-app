@@ -92,6 +92,13 @@ button[type="submit"]:hover {
     }
   }
 
+  async connectedCallback() {
+    super.connectedCallback();
+    window.addEventListener('languageChanged', () => {
+      this.requestUpdate();
+    });
+  }
+
   async addEmployee(event) {
     event.preventDefault();
     const form = event.target;
