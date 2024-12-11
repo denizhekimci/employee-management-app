@@ -1,0 +1,22 @@
+{
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "dateOfBirth": "Date of Birth",
+    "dateOfEmployment": "Date of Employment",
+    "phoneNumber": "Phone Number",
+    "email": "E-mail",
+    "department": "Department",
+    "position": "Position",
+    "actions": "Actions",
+    "employees": "Employees",
+    "addNew": "Add New",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "editEmployee": "Edit Employee",
+    "addNewEmployee": "Add New Employee",
+    "page": "Page",
+    "confirmDelete": "Are you sure you want to delete?",
+    "deleteEmployee": "Delete Employee"
+  }
+  

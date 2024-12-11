@@ -1,0 +1,22 @@
+{
+    "firstName": "Adı",
+    "lastName": "Soyadı",
+    "dateOfBirth": "Doğum Tarihi",
+    "dateOfEmployment": "İşe Giriş Tarihi",
+    "phoneNumber": "Telefon Numarası",
+    "email": "E-mail Adresi",
+    "department": "Departmanı",
+    "position": "Pozisyonu",
+    "actions": "İşlemler",
+    "employees": "Çalışan Listesi",
+    "addNew": "Yeni ekle",
+    "delete": "Sil",
+    "cancel": "İptal",
+    "edit": "Düzenle",
+    "editEmployee": "Kullanıcıyı Düzenle",
+    "addNewEmployee": "Yeni Kullanıcı Ekle",
+    "page": "Sayfa",
+    "confirmDelete": "Kaydı silmek istediğinize emin misiniz?",
+    "deleteEmployee": "Çalışanı Sil"
+  }
+  

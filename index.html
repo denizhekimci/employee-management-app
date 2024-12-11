@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> Employee Manager</title>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/lit/polyfill-support.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuid.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="module" src="src/list-employee.js"></script>
+    <script type="module" src="src/manage-employee.js"></script>
+    <script type="module" src="src/delete-modal.js"></script>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="src/navigation-menu.js"></script>
+    <script type="module" src="router.js"></script>
+    <script type="module" src="src/store.js"></script>
+    <script type="module" src="i18n/localization.js"></script>
+    <script type="module" src="i18n/language-manager.js"></script>
+  </head>
+  <body>
+    <navigation-menu></navigation-menu>
+    <div id="outlet"></div>
+  </body>
+</html>
