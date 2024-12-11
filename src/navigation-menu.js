@@ -68,7 +68,7 @@ export class NavigationMenu extends LitElement {
       <nav>
         <a href="/">${localization.translate('employees')}</a>
         <a href="/add">${localization.translate('addNew')}</a>
-        <a href="#" @click=${this.toggleLang}>${localization.currentLang === 'en' ? 'EN' : 'TR'}</a>
+        <a href="#" @click=${this.toggleLang}>${localization.currentLang === 'en' ? 'TR' : 'EN'}</a>
       </nav>
     `;
   }
